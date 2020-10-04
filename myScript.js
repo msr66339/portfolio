@@ -64,12 +64,16 @@ $(document).ready(function(){
     $(this).css({backgroundColor:"transparent",color:"#000000"});
   });
     
-    $(".Skills").css({backgroundColor:"#e8edf4",minHeight:"92vh",alignItems:"center"})
+    $(".Skills").css({backgroundColor:"#e8edf4",minHeight:"92vh",alignItems:"center"});
      $(".skills").css({backgroundColor:"#CCCCCC",color:"white",
-                      paddingTop:"10px",paddingBottom:"10px",textAlign:"right"})
+                      paddingTop:"10px",paddingBottom:"10px",textAlign:"right"});
+    
+     
      
     $(".section2-title").css({left:"29%",position:"relative",   borderBottom:" 6px solid transparent",borderImage:" linear-gradient(to right, white , #e3daed)",borderImageSlice: "1",paddingTop:"20px",paddingBottom:"20px"});
     $(".section2-title>h1").css({fontSize:"3vw"});
+     $(".section33-title").css({left:"35%",position:"relative",   borderBottom:" 6px solid transparent",borderImage:" linear-gradient(to right, white , #e3daed)",borderImageSlice: "1",paddingTop:"20px",paddingBottom:"20px"});
+    $(".section33-title>h1").css({fontSize:"3vw"});
     
    $(".rows").css({position:"relative",paddingTop:"40px",minWidth:"100%"});
     
@@ -122,8 +126,24 @@ $(".js").css({width:"65%",backgroundColor:"#e3daed",border:"1px solid",borderRad
      $( ".headings").css({paddingLeft:"20px",display:"block"});
     
     $( ".headings>p").css({paddingTop:"1.5vw",display:"block",fontSize:"1.5vw",fontWeight:"500"});
+     $( "svg").css({position:"relative",zIndex:"1000",width:"150px",height:"150px"});
+     $( "svg>circle").css({width:"100%",height:"100%",fill:"none",stroke:"#191919",strokeWidth:"10",strokeLinecap:"round",'transform' : 'translate(5px, 5px )'});
+    $("svg circle:nth-child(2)").css({strokeDasharray:"440",strokeDashoffset:"440"});
+    
+    $(".c11 circle:nth-child(2)").css({strokeDashoffset:"60",stroke:"#16A085"});
+    $(".c22 circle:nth-child(2)").css({strokeDashoffset:"88",stroke:"#00a1ff"});
+    $(".c33 circle:nth-child(2)").css({strokeDashoffset:"88",stroke:"#900C3F"});
+    $(".c44 circle:nth-child(2)").css({strokeDashoffset:"176",stroke:"#5D6D7E"});
+    $(".c55 circle:nth-child(2)").css({strokeDashoffset:"176",stroke:"#BFD1DA"});
+    $(".c66 circle:nth-child(2)").css({strokeDashoffset:"60",stroke:"#B3B6B7"});
+   
+     $(".card").css({border:"none"});
     
     
+     $(".sss").css({'justify-content':'center',alignItems:"center",display:"flex",justifyContent:"space-around",marginTop:"40px"});
+     $(".percent").css({position:"relative",display:"flex",justifyContent:"center",alignItems:"center"});
+    $(".number").css({position:"absolute",display:"flex",margin:"auto"});
+    $(".text").css({display:"flex",margin:"auto",justifyContent:"center",alignItems:"center",fontSize:"12px",fontWeight:"600"});
     
     $( ".navlist > li >a" ).click(function() {
   $(".active").removeClass("active" );
