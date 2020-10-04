@@ -5,7 +5,7 @@ $(document).ready(function(){
     //$(".brand-name").css({padding:"2px",marginTop:"2px"});
     $( "header" ).css({left: "0" , right: "0", position: "absolute  ",border:"1px solid #ffffff",padding:"0px,20px"});
     $( ".container" ).css({ maxWidth:"1140px" ,margin:"auto"});
-    $(".home").css("min-height","100vh");
+    $(".home").css("height","50vw");
     $(".home").css("background-image", "url('images/me.jpeg')");
      $(".home").css("background-size", "cover");
      $(".home").css("background-position", "100% 20%");
@@ -85,7 +85,7 @@ $(".js").css({width:"65%",backgroundColor:"#e3daed",border:"1px solid",borderRad
 
  $(".php").css({width:"75%",backgroundColor:"#e3daed",border:"1px solid",borderRadius:"20px"});
 
-    $(".about-me").css({minHeight:"100vh",backgroundColor:"#f6f6f6"});
+    $(".about-me").css({height:"80vh",backgroundColor:"#f6f6f6"});
    
     
   
