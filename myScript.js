@@ -9,20 +9,21 @@ $(document).ready(function(){
     $(".home").css("background-image", "url('images/me.jpeg')");
      $(".home").css("background-size", "cover");
      $(".home").css("background-position", "100% 20%");
+    
      $( ".row" ).css({display:"flex", flexwrap:"wrap"});
     $(".row").css("justify-content","space-between");
      $(".row").css("align-items","center");
-    $(".navlist > li").css({display:"inline-block", marginLeft:"100px"});
+    $(".navlist > li").css({display:"inline-block", marginLeft:"10vw"});
     $(".navlist").css({padding:"0px",marginLeft:"0px"});
-    $(".navlist > li >a").css({fontSize:"15px", textDecoration:"none", lineHeight:"45px", color:"#ffffff",fontWeight:"600",position:"relative",display:"block"});
+    $(".navlist > li >a").css({fontSize:"1vw", textDecoration:"none", lineHeight:"45px", color:"#ffffff",fontWeight:"600",position:"relative",display:"block"});
     $(".brand-name > a").css({color:"#ffffff",textDecoration:"none",fontWeight:"600",textTransform:"uppercase"});
-    $(".block").css({marginLeft:"0.2%",marginTop:"20%",borderLeft:"5px solid #ffffff",padding:"10px"});
+    $(".block").css({marginLeft:"0.2%",marginTop:"20%",borderLeft:"5px solid #ffffff",padding:"10px",position:"relative"});
     $(".full-screen").css({minHeight:"100vh"});
-    $(".home-content").css({display:"flex",maxWidth:"100%",flex:"0 0 100%",flexwrap:"wrap",paddingLeft:"40px"});
-    $(".block>h6").css({fontWeight:"600",fontSize:"25px",margin:"0",padding:"0"});
-    $(".block>h1").css({fontWeight:"600",fontSize:"75px",margin:"0 0 10px",padding:"0",lineHeight:"1.2"});
-    $(".block>h3").css({fontWeight:"600",margin:"0 0 20px",fontSize:"35px",padding:"0"});
-    $(".cv-btn>a").css({border:"3px solid #ffffff",borderRadius:"6px",padding:"6px",display:"inline-block",transition:"all .5s ease",color:"#000000",fontWeight:"600",textDecoration:"none"});
+    $(".home-content").css({display:"flex",maxWidth:"100%",flex:"0 0 100%",flexwrap:"wrap",paddingLeft:"40px",position:"relative"});
+    $(".block>h6").css({fontWeight:"600",fontSize:"3vw",margin:"0",padding:"0"});
+    $(".block>h1").css({fontWeight:"600",fontSize:"5vw",margin:"0 0 10px",padding:"0",lineHeight:"1.2"});
+    $(".block>h3").css({fontWeight:"600",margin:"0 0 20px",fontSize:"3vw",padding:"0"});
+    $(".cv-btn>a").css({border:"3px solid #ffffff",borderRadius:"6px",padding:"6px",display:"inline-block",transition:"all .5s ease",color:"#000000",fontWeight:"600",textDecoration:"none",fontSize:"1vw"});
       $(".cv-btn").css({marginLeft:"6px"});
     
     $(".cv-btn>a").hover(function(){$(this).css({backgroundColor:"#ffffff"});
@@ -71,7 +72,7 @@ $(document).ready(function(){
     
     $(".skillH").css({paddingLeft:"12px", fontWeight:"600",color:"black"});
 
-$(".continer").css({position:"relative",minWidth:"100%",backgroundColor:"#D0D0D0",border:"1px solid",borderRadius:"20px"});
+$(".continer").css({position:"relative",maxWidth:"100%",backgroundColor:"#D0D0D0",border:"1px solid",borderRadius:"20px"});
 
     $(".html").css({width:"90%",backgroundColor:"#e3daed",border:"1px solid",borderRadius:"20px"});
     
