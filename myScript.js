@@ -16,8 +16,8 @@ $(document).ready(function(){
     $(".navlist > li").css({display:"inline-block", marginLeft:"10vw"});
     $(".navlist").css({padding:"0px",marginLeft:"0px"});
     $(".navlist > li >a").css({fontSize:"1vw", textDecoration:"none", lineHeight:"45px", color:"#ffffff",fontWeight:"600",position:"relative",display:"block"});
-    $(".brand-name > a").css({color:"#ffffff",textDecoration:"none",fontWeight:"600",textTransform:"uppercase"});
-    $(".block").css({marginLeft:"0.2%",marginTop:"20%",borderLeft:"5px solid #ffffff",padding:"10px",position:"relative"});
+    $(".brand-name > a").css({color:"#ffffff",textDecoration:"none",fontWeight:"600",textTransform:"uppercase",fontSize:"2vw"});
+    $(".block").css({marginLeft:"0.2%",marginTop:"25%",borderLeft:"5px solid #ffffff",padding:"10px"});
     $(".full-screen").css({minHeight:"100vh"});
     $(".home-content").css({display:"flex",maxWidth:"100%",flex:"0 0 100%",flexwrap:"wrap",paddingLeft:"40px"});
     $(".block>h6").css({fontWeight:"600",fontSize:"3vw",margin:"0",padding:"0"});
@@ -67,6 +67,7 @@ $(document).ready(function(){
                       paddingTop:"10px",paddingBottom:"10px",textAlign:"right"})
      
     $(".section2-title").css({left:"29%",position:"relative",   borderBottom:" 6px solid transparent",borderImage:" linear-gradient(to right, white , #e3daed)",borderImageSlice: "1",paddingTop:"20px",paddingBottom:"20px"});
+    $(".section2-title>h1").css({fontSize:"3vw"});
     
    $(".rows").css({position:"relative",paddingTop:"40px",minWidth:"100%"});
     
@@ -89,11 +90,13 @@ $(".js").css({width:"65%",backgroundColor:"#e3daed",border:"1px solid",borderRad
     
   
     $(".section3-title").css({left:"10%",position:"relative",   borderBottom:" 6px solid transparent",borderImage:" linear-gradient(to right, #B1BD9A , #ECFEFC)",borderImageSlice: "1",paddingTop:"10px"});
+    $(".section3-title>h1").css({fontSize:"3vw"});
  
     
     $(".subtitle").css({left:"10%",paddingTop:"6px",color:"grey",position:"relative"});
+     $(".subtitle>h6").css({fontSize:"1.5vw"});
     
-     $(".picss").css({maxWidth:"400px",maxHeight:"400px",position:"relative",border:"1px solid",borderRadius:"100px"});
+     $(".picss").css({width:"100%",maxWidth:"400px",height:"auto",position:"relative",border:"1px solid",borderRadius:"100px"});
     $( ".picss" ).hover(
   function() {
     $( this ).animate({borderRadius:"50px"},300);
@@ -107,16 +110,16 @@ $(".js").css({width:"65%",backgroundColor:"#e3daed",border:"1px solid",borderRad
     $( ".rowm" ).css({display:"flex"});
     
     $( ".headings").css({marginLeft:"2%",marginTop:"3%"});
-    $( ".headings>a.akiclass").css({color:"black",fontSize:"18px",fontWeight:"600",borderBottom:"2px solid",paddingBottom:"10px"});
+    $( ".headings>a.akiclass").css({color:"black",fontSize:"2vw",fontWeight:"600",borderBottom:"2px solid",paddingBottom:"10px"});
     
-     $( ".headings>a.akiclass").css({color:"black",fontSize:"18px",fontWeight:"600",borderBottom:"2px solid",paddingBottom:"5px"});
+     $( ".headings>a.akiclass").css({color:"black",fontSize:"1.6vw",fontWeight:"600",borderBottom:"2px solid",paddingBottom:"5px"});
     
-    $( ".headings>a.smalltext").css({fontSize:"14px",paddingBottom:"6px",color:"#CECECE",borderBottomColor:"#000"});
+    $( ".headings>a.smalltext").css({fontSize:"1.1vw",paddingBottom:"6px",color:"#CECECE",borderBottomColor:"#000"});
     $( ".headings>a.gpa").css({fontSize:"12px",fontWeight:"500",marginBottom:"700px"});
     
      $( ".headings").css({paddingLeft:"20px",display:"block"});
     
-    $( ".headings>p").css({paddingTop:"20px",display:"block",fontSize:"14px",fontWeight:"500"});
+    $( ".headings>p").css({paddingTop:"1.5vw",display:"block",fontSize:"1.5vw",fontWeight:"500"});
     
     
     
