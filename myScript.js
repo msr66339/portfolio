@@ -19,7 +19,7 @@ $(document).ready(function(){
     $(".brand-name > a").css({color:"#ffffff",textDecoration:"none",fontWeight:"600",textTransform:"uppercase"});
     $(".block").css({marginLeft:"0.2%",marginTop:"20%",borderLeft:"5px solid #ffffff",padding:"10px",position:"relative"});
     $(".full-screen").css({minHeight:"100vh"});
-    $(".home-content").css({display:"flex",maxWidth:"100%",flex:"0 0 100%",flexwrap:"wrap",paddingLeft:"40px",position:"relative"});
+    $(".home-content").css({display:"flex",maxWidth:"100%",flex:"0 0 100%",flexwrap:"wrap",paddingLeft:"40px"});
     $(".block>h6").css({fontWeight:"600",fontSize:"3vw",margin:"0",padding:"0"});
     $(".block>h1").css({fontWeight:"600",fontSize:"5vw",margin:"0 0 10px",padding:"0",lineHeight:"1.2"});
     $(".block>h3").css({fontWeight:"600",margin:"0 0 20px",fontSize:"3vw",padding:"0"});
